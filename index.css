@@ -1,0 +1,204 @@
+
+/*
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.todo-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #0a0a0a;
+  font-weight: bold;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #4CAF50;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+li button {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
+
+
+p {
+  font-size: 1.2rem;
+  color: #999;
+  margin-top: 30px;
+}*/
+ /* General Styles for Feedback Form */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the app */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Feedback Form */
+.feedback-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #020202;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Form Fields */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Submitted Data Display */
+.submitted-data {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.submitted-data p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.submitted-data h2 {
+  color: #4CAF50;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Empty Validation Messages */
+.alert {
+  color: red;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
